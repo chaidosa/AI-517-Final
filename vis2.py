@@ -1,6 +1,6 @@
 import open3d as o3d
 import numpy as np
-import rerun as rr
+#import rerun as rr
 import trimesh
 
 original_cloud_path = "./output/ScanNet/ScanNet_processed59.obj"
