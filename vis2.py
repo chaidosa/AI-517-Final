@@ -3,9 +3,9 @@ import numpy as np
 #import rerun as rr
 import trimesh
 
-original_cloud_path = "./output/ScanNet/ScanNet_processed59.obj"
+original_cloud_path = "./output/Pheno4D/Shapenet_selected_inner_points1.obj"
 
-processed_cloud_path = "./output/ScanNet/ScanNet_selected_inner_points59.obj"
+processed_cloud_path = "./output/Pheno4D/Shapenet_processed1.obj"
 
 original_cloud = trimesh.load(original_cloud_path)
 processed_cloud = trimesh.load(processed_cloud_path)
